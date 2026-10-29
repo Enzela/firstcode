@@ -16,3 +16,4 @@ class User(Base):
     wallet = relationship("Wallet", back_populates="user", uselist=False, cascade="all, delete-orphan")
     messages = relationship("SMSMessage", back_populates="user", cascade="all, delete-orphan")
     ledger_entries = relationship("WalletLedger", back_populates="user", cascade="all, delete-orphan")
+

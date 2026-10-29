@@ -44,3 +44,4 @@ def test_emoji_in_english_message_turns_whole_to_unicode():
     msg = "Welcome to Nest SMS! Here is your OTP: 123456 🔥"
     res = calculate_sms_segments(msg)
     assert res["encoding"] == "UNICODE"
+

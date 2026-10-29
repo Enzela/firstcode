@@ -270,3 +270,4 @@ The test suite covers 100% of the core requirements:
 2. **Circuit Breaker Pattern**: If a provider fails 5 consecutive times, open the circuit and bypass it for 60 seconds before probing health.
 3. **Number Portability Lookup (MNP)**: Integrate a live lookup for mobile network porting between NTC (984/985/986/974/975/976) and Ncell (980/981/982/970).
 4. **Distributed Redis Rate Limiter**: Use Redis sliding-window counters for multi-pod Kubernetes clusters.
+

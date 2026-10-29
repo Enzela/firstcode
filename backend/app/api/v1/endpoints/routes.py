@@ -51,3 +51,4 @@ def update_route_configuration(
         "is_active": updated.is_active,
         "message": f"Route {updated.name} updated successfully"
     }
+

@@ -170,3 +170,4 @@ class WalletService:
             db.commit()
             db.refresh(wallet)
             return wallet
+

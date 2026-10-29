@@ -38,3 +38,4 @@ class SMSDeliveryAttempt(Base):
     created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), index=True)
 
     message = relationship("SMSMessage", back_populates="attempts")
+

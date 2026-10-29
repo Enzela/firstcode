@@ -35,3 +35,4 @@ class WalletLedger(Base):
 
     wallet = relationship("Wallet", back_populates="ledger_entries")
     user = relationship("User", back_populates="ledger_entries")
+

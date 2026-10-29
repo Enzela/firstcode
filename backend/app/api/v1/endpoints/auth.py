@@ -120,3 +120,4 @@ def read_current_user(
         created_at=current_user.created_at,
         balance=balance
     )
+

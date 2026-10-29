@@ -44,3 +44,4 @@ def handle_delivery_report(
         message_id=msg.id,
         updated_status=msg.status
     )
+

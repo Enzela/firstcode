@@ -61,3 +61,4 @@ def test_batch_recipients_validation():
     assert len(invalid) == 2
     assert invalid[0]["input"] == "9612345678"
     assert invalid[1]["input"] == "984123456"
+

@@ -65,3 +65,4 @@ app.include_router(api_router, prefix=settings.API_V1_STR)
 # POST /sms/send, GET /sms/logs, GET /routes/health
 app.include_router(sms.router, prefix="/sms", tags=["SMS Direct Routes"])
 app.include_router(routes.router, prefix="/routes", tags=["Routes Direct Routes"])
+

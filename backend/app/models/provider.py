@@ -18,3 +18,4 @@ class SMSProvider(Base):
     def getBalance(self) -> int:
         """Returns the current credit balance available for this provider."""
         return self.balance
+

@@ -75,3 +75,4 @@ def calculate_sms_segments(text: str) -> Dict[str, Any]:
         "max_single_part": single_limit,
         "remaining_in_part": remaining
     }
+

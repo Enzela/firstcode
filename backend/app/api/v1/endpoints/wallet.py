@@ -53,3 +53,4 @@ def get_wallet_ledger(
         WalletLedger.user_id == current_user.id
     ).order_by(WalletLedger.created_at.desc()).limit(limit).all()
     return entries
+

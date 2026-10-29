@@ -69,3 +69,4 @@ def validate_and_normalize_recipients(recipients: List[str]) -> Tuple[List[str],
             })
 
     return valid, invalid
+

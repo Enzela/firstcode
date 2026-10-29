@@ -19,3 +19,4 @@ class RouteConfigUpdateRequest(BaseModel):
     balance: Optional[int] = Field(None, ge=0)
     failure_rate: Optional[float] = Field(None, ge=0.0, le=1.0)
     is_active: Optional[bool] = None
+
